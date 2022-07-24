@@ -4,9 +4,88 @@
 <meta charset="UTF-8">
 <title>Untitled Document</title>
 </head>
+<style>
+	* {
+		box-sizing: border-box;
+	}
+	header {
+		background-color: #55037F;
+		padding: 30px;
+		text-align: center;
+	}
+	body {
+    padding: inherit;
+    background-color: #FCFAF5;
+	}
+	h1 {
+		text-align: center; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		color: aliceblue;
+	}
+	h2 {
+		text-align: center;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+	}
+	img {
+		width: 20%;
+	}
+	section::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	nav {
+		float: left;
+		width: 30%;
+		background: #3224AC;
+		padding: 20px;
+	}
+	nav ul {
+		list-style-type: none;
+		padding: 20;
+		color: aliceblue;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+	}
+	nav ul li a {
+	background: #FFF;
+	box-shadow: 1px 1px 3px rgb(0 0 0 / 70%);
+	border-radius: 5px;
+	}
+	nav ul li a:hover {
+		background: #9B9B9B
+	}
+	nav h2 {
+		color: aliceblue;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+	}
+	article {
+    float: right;
+    padding: 20px;
+    width: 70%;
+    background-color: antiquewhite;
+	}
+	article p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	}
+</style>
 
 <body>
+	<header>
 	<h1>Hello World</h1>
+	</header>
+<section>
+  <nav>
+		<h2>Directory</h2>
+		<ul>
+			<li><a href="Updates.html">  Updates  </a></li>
+			<li>Todo</li>
+			<li>Activity for today</li>
+		</ul>
+	</nav>
+<article>
+	<h2><strong>About Me</strong></h2>
+	
+</article>
+</section>
 </body>
 </html>
-

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+	* {
+		box-sizing: border-box;
+	}
+	header {
+		background-color: #55037F;
+		padding: 20px;
+		text-align: center;
+		border-radius: 10px;
+		margin-bottom: 10px;
+	}
+	body {
+    background-color: #FCFAF5;
+	}
+	h1 {
+		text-align: center; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		color: aliceblue;
+	}
+	h2 {
+		text-align: center;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+	}
+	img {
+		width: 20%;
+	}
+	section::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	nav {
+		float: left;
+		width: 35%;
+		border-radius: 10px;
+		background: #3224AC;
+		padding: 20px;
+		margin: 10;
+		
+	}
+	nav ul {
+		list-style-type: none;
+		padding: 30;
+		color: aliceblue;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+	}
+	nav ul li a {
+	background: #FFF;
+	box-shadow: 1px 1px 3px rgb(0 0 0 / 70%);
+	border-radius: 5px;
+	}
+	nav ul li a:hover {
+		background: #9B9B9B
+	}
+	nav h2 {
+		color: aliceblue;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+	}
+	article {
+    float: right;
+    padding: 20px;
+    width: 60%;
+    background-color: crimson;
+	border-radius: 10px;
+	margin: 10px;
+	}
+	article p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	}
+ 	#div-id{
+    border : 2px solid blue;
+    width    : 50%;
+    height   : 220px;
+    position : relative;
+    overflow : hidden;
+	}
+
+	#iframe-id{
+    position : absolute;
+    top      : -385px;
+    left     : -2px;
+    width    : 100%;
+    height   : 210vh;
+	}

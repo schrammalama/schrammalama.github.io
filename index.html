@@ -3,72 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Untitled Document</title>
+	<script src="https://www.pricecharting.com"></script>
 </head>
-<style>
-	* {
-		box-sizing: border-box;
-	}
-	header {
-		background-color: #55037F;
-		padding: 30px;
-		text-align: center;
-	}
-	body {
-    padding: inherit;
-    background-color: #FCFAF5;
-	}
-	h1 {
-		text-align: center; font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-		color: aliceblue;
-	}
-	h2 {
-		text-align: center;
-		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
-	}
-	img {
-		width: 20%;
-	}
-	section::after {
-		content: "";
-		display: table;
-		clear: both;
-	}
-	nav {
-		float: left;
-		width: 30%;
-		background: #3224AC;
-		padding: 20px;
-	}
-	nav ul {
-		list-style-type: none;
-		padding: 20;
-		color: aliceblue;
-		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
-	}
-	nav ul li a {
-	background: #FFF;
-	box-shadow: 1px 1px 3px rgb(0 0 0 / 70%);
-	border-radius: 5px;
-	}
-	nav ul li a:hover {
-		background: #9B9B9B
-	}
-	nav h2 {
-		color: aliceblue;
-		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
-	}
-	article {
-    float: right;
-    padding: 20px;
-    width: 70%;
-    background-color: antiquewhite;
-	}
-	article p {
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	text-align: center;
-	}
-</style>
-
+	<link rel="stylesheet" href="main.css">
 <body>
 	<header>
 	<h1>Hello World</h1>
@@ -84,7 +21,15 @@
 	</nav>
 <article>
 	<h2><strong>About Me</strong></h2>
-	
+	<p>Hello, my name is Porter Schramm and I live in Portland OR.<br>
+I like video games and technology in general, any time you see me I'll be on some sort of computer.</p>
+	</article>
+<article>
+	<h2><strong>My Hobbies</strong></h2>
+	<p>One of my biggest hobbies is collection videogames, below you can see the chart of thier value.</p>
+		<div id="div-id">
+	<iframe src="https://www.pricecharting.com/offers?seller=dbmg7nns5d7fdwajruu3no6lky&status=collection" id="iframe-id" scrolling="no"></iframe>
+	</div>
 </article>
 </section>
 </body>

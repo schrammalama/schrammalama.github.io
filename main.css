@@ -24,12 +24,12 @@
 	img {
 		width: 20%;
 	}
-	section::after {
+	section {
 		content: "";
 		display: table;
 		clear: both;
 	}
-	nav {
+	.index {
 		float: left;
 		width: 35%;
 		border-radius: 10px;
@@ -56,6 +56,9 @@
 		color: aliceblue;
 		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
 	}
+aside{
+	padding: 10%;
+}
 	article {
     float: right;
     padding: 20px;
